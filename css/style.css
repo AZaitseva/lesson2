@@ -1,0 +1,89 @@
+/* body { */
+    /* background-color: black; */
+    /* background-color: #000; */
+    /* background-color: rgb(red, green, blue);
+    background-color: rgba(112, 57, 175, 0.425);
+    color: aliceblue;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    white-space: pre;
+    letter-spacing: 10px;
+    
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+
+    /* text-decoration: underline; */
+    /* text-decoration: dotted;
+    text-decoration: underline;
+    text-decoration: lawngreen;
+
+    text-shadow: 1px 1px 1px #fff;
+
+    background-image: url(https://mmamos.ru/wp-content/uploads/2022/06/foto-iz-otkrytyh-istochnikov_-73.jpeg);
+    background: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(0,212,255,1) 77%);
+    background-position: center;
+
+    background-repeat: no-repeat;
+    /* background-size: cover; */ */ */
+
+
+/* } */
+
+/* h1 {
+font-size: 40px;
+}
+
+.class {
+    height: 100vh;
+    width: 500px;
+} */
+/* ul {
+    color: aliceblue;
+    list-style: none;
+}
+li:before{
+    content: "(◕‿◕)";
+    height: 10px;
+    width: 10px;
+    background-color:red;
+    /* Выравнивание */
+    /* margin-right: 10px; */
+    /* Скругление углов */
+    /* border-radius: 50%; */
+
+    margin: auto;
+    padding: 40%;
+    box-sizing: border-box; */
+
+/* } */
+
+li {
+    display: flex;
+    /* Выравнивание */
+    align-items: center;
+}
+
+img {
+border-width: 1px;
+border-style: solid;
+border-color: red;
+
+border: 10px solid red;
+
+border-radius: 100px 200px 300px 400px;
+display: block;
+box-shadow: 10px 10px 10px 10px;
+box-shadow: 10px 10px 10px 10px rgba(rgb(0, 153, 255));
+margin: 0 auto;
+display: ;
+
+}
+
+.first spisok()
+
