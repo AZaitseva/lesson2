@@ -1,0 +1,55 @@
+.flex {
+    height: 500px;
+    border: 1px solid;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap-reverse; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 200px 400px 200px;
+    gap: 10px 20px;
+
+   }
+.item {
+    /* height: 200px; */
+    /* width: 200px; */
+    padding: 10px;
+    box-sizing: border-box;
+    min-width: 1px;
+}
+.item-1 {
+    /* flex-shrink: 0; */
+    background-color: brown;
+    height: 200px;
+}
+.item-2 {
+    /* align-self: flex-end; */
+    height: 400px;
+    background-color: yellow;
+    /* order: -1;                      (будут в конце списка) */
+    }
+.item-3 {
+    height: 300px;
+    background-color: cadetblue;
+}
+
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1.5fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Header Header Header"
+      ". . ."
+      "Futer Futer Futer"; 
+  }
+  .Header { grid-area: Header; }
+  .Futer { grid-area: Futer; }
+
+
+
+
